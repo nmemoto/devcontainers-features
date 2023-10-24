@@ -37,6 +37,12 @@
             "python": "os-provided"
         }
     },
+    "install_os_provided_python_bookwarm": {
+        "image": "mcr.microsoft.com/devcontainers/base:1-bookwarm",
+        "features": {
+            "python": "os-provided"
+        }
+    },
     "install_jupyterlab_from_python_image": {
         "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
         "remoteUser": "vscode",
